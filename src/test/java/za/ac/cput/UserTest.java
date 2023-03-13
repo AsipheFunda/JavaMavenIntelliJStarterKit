@@ -17,6 +17,7 @@ class UserTest {
         User u1 = new User("123","password");
         User u2 = new User("123","password");
         assertEquals(u1,u2);
+
     }
     @Test
     public void testObjectIdentity(){

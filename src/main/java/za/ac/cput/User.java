@@ -8,6 +8,7 @@ public class User {
     public User(String loginId, String password) {
         this.loginId = loginId;
         this.password = password;
+
     }
 
     public static User createUser(String s, String userPassword) {
