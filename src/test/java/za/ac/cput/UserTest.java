@@ -24,6 +24,7 @@ class UserTest {
         User u1 = new User("123","password");
         User u2 = new User("123","password");
         assertNotSame(u1, u2);
+
     }
 
     @Test
