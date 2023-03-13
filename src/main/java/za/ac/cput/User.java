@@ -23,6 +23,7 @@ public class User {
 
         this.loginId = loginId;
 
+
     }
 
     public String getPassword() {
